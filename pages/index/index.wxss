@@ -1,0 +1,51 @@
+/**index.wxss**/
+.intro{
+  color:#CC9999;
+}
+
+#firstname{
+  color:#FF6666;
+}
+
+text{
+  color:#999999;
+}
+
+text,icon{
+  margin-left:100px;
+}
+/**在View组件前面插入内容**/
+.pos::before{
+  content:"Before";
+  background-color:#CC6600;
+}
+
+/**在View组件后面插入内容**/
+.pos::after{
+  content:"After";
+  background-color:#CCCC33;
+}
+
+
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

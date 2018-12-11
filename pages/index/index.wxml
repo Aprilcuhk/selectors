@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="intro">class intro</view>
+
+  <view id="firstname">id firstname</view>
+
+  <text>Text1</text>
+  <text>Text2</text>
+  <text>Text3</text>
+
+  <icon type="success"/>
+
+  <view class="pos">VIEW</view>
+
+</view>
